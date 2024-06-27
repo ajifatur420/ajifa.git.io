@@ -1,0 +1,103 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    background-image: url('assets/_9a02be41-9a36-49d7-8110-cd847de80263.jpeg');
+    background-size: cover; /* Pastikan gambar mencakup seluruh halaman */
+    background-repeat: no-repeat; /* Hindari pengulangan gambar */
+    background-position: center center; /* Pusatkan gambar */
+    background-attachment: fixed; /* Tetapkan gambar saat menggulir */
+}
+
+header {
+    background-color: #33333371;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+}
+
+.menu-item {
+    cursor: pointer;
+    padding: 0.5em;
+    border: 1px solid #cccccc33;
+    border-radius: 5px;
+    background-color: #ffffff2f;
+    text-align: center;
+}
+
+.menu-item:hover {
+    background-color: #f0f0f000;
+}
+
+#detail {
+    padding: 1em;
+    display: none;
+    background-color: #ffffff83;
+    border: 1px solid #cccccc00;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #33333371;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+footer nav ul li {
+    margin: 0 1em;
+}
+
+footer nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Optional: membuat kontainer mencakup seluruh tinggi layar */
+}
+
+.card {
+    width: 300px; /* Atur lebar kartu sesuai kebutuhan */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    background-color: #f9f9f9;
+    transition: background-color 0.3s ease;
+}
+
+.card:hover {
+    background-color: #e9e9e9;
+}
+
+.card-img img {
+    max-width: 100%; /* Agar gambar sesuai dengan lebar kartu */
+    border-radius: 8px; /* Sesuaikan radius sudut sesuai kebutuhan */
+}
